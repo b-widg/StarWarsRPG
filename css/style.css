@@ -1,0 +1,107 @@
+*{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: #222;
+    /* background-image: url(../images/x-wing-bg.jpg);
+    width: 100%;
+    max-height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat; */
+}
+#main-container{
+    overflow:hidden;
+
+}
+header{
+    background-image: url(../images/four-swords.png);
+    /* height: 10vh; */
+    width: 100%;
+    min-height: 10vh;
+    /* height: 100px; */
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.game-instructions{
+    font-size: 1.25rem;
+    font-family: courier;
+    color: chartreuse;
+    background-color: #000;
+    display: table;
+    padding: 0 2px;
+}
+
+#choose-player{
+    margin: 2px auto;
+    text-align: center;
+}
+#your-enemies{
+    margin: 0;
+    padding: 0;
+    opacity: 0;
+
+    clear: both;
+}
+#game-container{
+background-image: url(../images/x-wing-bg.jpg);
+    height: 80vh;
+    width: 100%;
+    max-height: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+    
+footer{
+    background-image: url(../images/four-swords.png);
+    /* height: 10%; */
+    height: 10vh;
+    width: 100%;
+    max-height: 100%;
+    background-size:100%;
+    background-repeat: no-repeat;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    -webkit-filter: FlipH;
+    -ms-transform: scaleX(-1);
+}
+#character-stage{
+    height: 200px;
+}
+.character-container{
+    font-size: .5rem;
+    margin: 1rem .1rem;
+    display: inline-block;
+    color: white;
+    padding: .4rem .2rem;
+    background-color: rgba(33,33,100,.5);
+    border-radius: .75rem;
+    -webkit-border-radius: .75rem;
+    -moz-border-radius: .75rem;
+    -ms-border-radius: .75rem;
+    -o-border-radius: .75rem;
+}
+.character-img{
+    height: 7rem;
+    border-radius: .75rem;
+    max-width: 15rem;
+}
+.good-guys{
+    float: left;
+}
+.bad-guys{
+    float: right;
+    
+}
